@@ -1,0 +1,17 @@
+[
+    {
+        "question": "HTMLda eng katta sarlavha tegi qaysi?",
+        "options": ["<h1>", "<h6>", "<title>", "<p>"],
+        "answer": "<h1>"
+    },
+    {
+        "question":"CSSda rang berish uchun qaysi property ishlatiladi?",
+        "options": ["font-size", "background-color", "margin", "color"],
+        "answer": "color"
+    },
+    {
+        "question":"JavaScriptda qaysi kalit so'z bilan o'zgaruvchi e'lon qilinadi?",
+        "options": ["var", "let", "const", "barchasi to'gri"],
+        "answer": "barchasi to'gri"
+    }
+]
