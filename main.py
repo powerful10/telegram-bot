@@ -1,5 +1,7 @@
 import json
 import os
+import threading
+from http.server import BaseHTTPRequestHandler, HTTPServer
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
 from dotenv import load_dotenv
@@ -40,7 +42,9 @@ async def ask_question(update, context, user_id):
             await update.callback_query.message.reply_text(q["question"], reply_markup=reply_markup)
     else:
         score = user_data[user_id]["score"]
-        await update.callback_query.message.reply_text(f"🏆 Quiz tugadi! Sizning natijangiz: {score}/{len(questions)}")
+        await update.callback_query.message.reply_text(
+            f"🏆 Quiz tugadi! Sizning natijangiz: {score}/{len(questions)}"
+        )
 
 # Javoblarni tekshirish
 async def button(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -59,8 +63,25 @@ async def button(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_data[user_id]["current_q"] += 1
     await ask_question(update, context, user_id)
 
+# ---- HTTP server (Render health check) ----
+class HealthHandler(BaseHTTPRequestHandler):
+    def do_GET(self):
+        self.send_response(200)
+        self.send_header("Content-type", "text/plain")
+        self.end_headers()
+        self.wfile.write(b"Bot is running!")
+
+def run_http_server():
+    port = int(os.environ.get("PORT", 10000))  # Render assigns $PORT
+    server = HTTPServer(("", port), HealthHandler)
+    print(f"✅ Health check server started on port {port}")
+    server.serve_forever()
+
 # Asosiy app
 def main():
+    # Start HTTP server in background thread
+    threading.Thread(target=run_http_server, daemon=True).start()
+
     app = ApplicationBuilder().token(TOKEN).build()
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("quiz", quiz))
