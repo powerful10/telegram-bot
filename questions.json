@@ -1,17 +1,3502 @@
 [
     {
-        "question": "HTMLda eng katta sarlavha tegi qaysi?",
-        "options": ["<h1>", "<h6>", "<title>", "<p>"],
-        "answer": "<h1>"
+        "question": "Which is NOT a scheduling algorithm?",
+        "options": [
+            "Round Robin",
+            "Fastest Path Routing",
+            "Shortest Job Next",
+            "FCFS"
+        ],
+        "answer": "Fastest Path Routing"
     },
     {
-        "question":"CSSda rang berish uchun qaysi property ishlatiladi?",
-        "options": ["font-size", "background-color", "margin", "color"],
+        "question": "What is the output of type([])?",
+        "options": [
+            "<class 'set'>",
+            "<class 'dict'>",
+            "<class 'list'>",
+            "<class 'tuple'>"
+        ],
+        "answer": "<class 'list'>"
+    },
+    {
+        "question": "Which SQL command removes a record?",
+        "options": [
+            "TRUNCATE",
+            "REMOVE",
+            "DELETE",
+            "DROP"
+        ],
+        "answer": "DELETE"
+    },
+    {
+        "question": "Which tag inserts a line break?",
+        "options": [
+            "<break>",
+            "<br>",
+            "<p>",
+            "<lb>"
+        ],
+        "answer": "<br>"
+    },
+    {
+        "question": "What does <h1> represent?",
+        "options": [
+            "The largest heading",
+            "Horizontal line",
+            "Title",
+            "Paragraph"
+        ],
+        "answer": "The largest heading"
+    },
+    {
+        "question": "What is the maximum children of a binary tree node?",
+        "options": [
+            "Unlimited",
+            "1",
+            "3",
+            "2"
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Which device connects different networks?",
+        "options": [
+            "Router",
+            "Repeater",
+            "Switch",
+            "Hub"
+        ],
+        "answer": "Router"
+    },
+    {
+        "question": "What unit is relative to the parent element?",
+        "options": [
+            "em",
+            "%",
+            "vh",
+            "px"
+        ],
+        "answer": "em"
+    },
+    {
+        "question": "Which data type is immutable in Python?",
+        "options": [
+            "Tuple",
+            "Set",
+            "List",
+            "Dictionary"
+        ],
+        "answer": "Tuple"
+    },
+    {
+        "question": "Which attack injects SQL code?",
+        "options": [
+            "XSS",
+            "SQL Injection",
+            "Phishing",
+            "MITM"
+        ],
+        "answer": "SQL Injection"
+    },
+    {
+        "question": "What is used for process synchronization?",
+        "options": [
+            "Cache",
+            "Thread",
+            "Buffer",
+            "Semaphore"
+        ],
+        "answer": "Semaphore"
+    },
+    {
+        "question": "Which data structure works on FIFO?",
+        "options": [
+            "Tree",
+            "Queue",
+            "Stack",
+            "Linked List"
+        ],
+        "answer": "Queue"
+    },
+    {
+        "question": "What does HTTPS use for security?",
+        "options": [
+            "Hashing",
+            "VPN",
+            "SSL/TLS",
+            "Firewall"
+        ],
+        "answer": "SSL/TLS"
+    },
+    {
+        "question": "Which property makes text bold?",
+        "options": [
+            "font-style",
+            "weight",
+            "font-weight",
+            "bold"
+        ],
+        "answer": "font-weight"
+    },
+    {
+        "question": "Which CSS property changes text color?",
+        "options": [
+            "font-size",
+            "color",
+            "background-color",
+            "text-style"
+        ],
         "answer": "color"
     },
     {
-        "question":"JavaScriptda qaysi kalit so'z bilan o'zgaruvchi e'lon qilinadi?",
-        "options": ["var", "let", "const", "barchasi to'gri"],
-        "answer": "barchasi to'gri"
+        "question": "Which is NOT a hashing algorithm?",
+        "options": [
+            "SHA1",
+            "MD5",
+            "SHA256",
+            "AES"
+        ],
+        "answer": "AES"
+    },
+    {
+        "question": "Which property makes text bold?",
+        "options": [
+            "font-style",
+            "weight",
+            "font-weight",
+            "bold"
+        ],
+        "answer": "font-weight"
+    },
+    {
+        "question": "Which is NOT a scheduling algorithm?",
+        "options": [
+            "Round Robin",
+            "Fastest Path Routing",
+            "Shortest Job Next",
+            "FCFS"
+        ],
+        "answer": "Fastest Path Routing"
+    },
+    {
+        "question": "What is used for process synchronization?",
+        "options": [
+            "Cache",
+            "Thread",
+            "Buffer",
+            "Semaphore"
+        ],
+        "answer": "Semaphore"
+    },
+    {
+        "question": "What unit is relative to the parent element?",
+        "options": [
+            "em",
+            "%",
+            "vh",
+            "px"
+        ],
+        "answer": "em"
+    },
+    {
+        "question": "Which property makes text bold?",
+        "options": [
+            "font-style",
+            "weight",
+            "font-weight",
+            "bold"
+        ],
+        "answer": "font-weight"
+    },
+    {
+        "question": "What is the maximum children of a binary tree node?",
+        "options": [
+            "Unlimited",
+            "1",
+            "3",
+            "2"
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "What is the output of type([])?",
+        "options": [
+            "<class 'set'>",
+            "<class 'dict'>",
+            "<class 'list'>",
+            "<class 'tuple'>"
+        ],
+        "answer": "<class 'list'>"
+    },
+    {
+        "question": "Which attack injects SQL code?",
+        "options": [
+            "XSS",
+            "SQL Injection",
+            "Phishing",
+            "MITM"
+        ],
+        "answer": "SQL Injection"
+    },
+    {
+        "question": "Which keyword is used to define a function in Python?",
+        "options": [
+            "function",
+            "lambda",
+            "func",
+            "def"
+        ],
+        "answer": "def"
+    },
+    {
+        "question": "What will typeof NaN return?",
+        "options": [
+            "NaN",
+            "object",
+            "undefined",
+            "number"
+        ],
+        "answer": "number"
+    },
+    {
+        "question": "Which is NOT a hashing algorithm?",
+        "options": [
+            "SHA1",
+            "MD5",
+            "SHA256",
+            "AES"
+        ],
+        "answer": "AES"
+    },
+    {
+        "question": "Which is NOT a hashing algorithm?",
+        "options": [
+            "SHA1",
+            "MD5",
+            "SHA256",
+            "AES"
+        ],
+        "answer": "AES"
+    },
+    {
+        "question": "What is used for process synchronization?",
+        "options": [
+            "Cache",
+            "Thread",
+            "Buffer",
+            "Semaphore"
+        ],
+        "answer": "Semaphore"
+    },
+    {
+        "question": "Which tag inserts a line break?",
+        "options": [
+            "<break>",
+            "<br>",
+            "<p>",
+            "<lb>"
+        ],
+        "answer": "<br>"
+    },
+    {
+        "question": "Which protocol sends emails?",
+        "options": [
+            "FTP",
+            "SMTP",
+            "IMAP",
+            "HTTP"
+        ],
+        "answer": "SMTP"
+    },
+    {
+        "question": "Which device connects different networks?",
+        "options": [
+            "Router",
+            "Repeater",
+            "Switch",
+            "Hub"
+        ],
+        "answer": "Router"
+    },
+    {
+        "question": "Which is a non-preemptive scheduling?",
+        "options": [
+            "Priority",
+            "Round Robin",
+            "FCFS",
+            "SJF"
+        ],
+        "answer": "FCFS"
+    },
+    {
+        "question": "What will typeof NaN return?",
+        "options": [
+            "NaN",
+            "object",
+            "undefined",
+            "number"
+        ],
+        "answer": "number"
+    },
+    {
+        "question": "Which keyword is used to define a function in Python?",
+        "options": [
+            "function",
+            "lambda",
+            "func",
+            "def"
+        ],
+        "answer": "def"
+    },
+    {
+        "question": "Which data structure is used in BFS?",
+        "options": [
+            "Tree",
+            "Stack",
+            "Heap",
+            "Queue"
+        ],
+        "answer": "Queue"
+    },
+    {
+        "question": "What unit is relative to the parent element?",
+        "options": [
+            "em",
+            "%",
+            "vh",
+            "px"
+        ],
+        "answer": "em"
+    },
+    {
+        "question": "What does HTTPS use for security?",
+        "options": [
+            "Hashing",
+            "VPN",
+            "SSL/TLS",
+            "Firewall"
+        ],
+        "answer": "SSL/TLS"
+    },
+    {
+        "question": "Which data structure is used in BFS?",
+        "options": [
+            "Tree",
+            "Stack",
+            "Heap",
+            "Queue"
+        ],
+        "answer": "Queue"
+    },
+    {
+        "question": "Which structure uses LIFO?",
+        "options": [
+            "Stack",
+            "Graph",
+            "Array",
+            "Queue"
+        ],
+        "answer": "Stack"
+    },
+    {
+        "question": "What does HTTPS use for security?",
+        "options": [
+            "Hashing",
+            "VPN",
+            "SSL/TLS",
+            "Firewall"
+        ],
+        "answer": "SSL/TLS"
+    },
+    {
+        "question": "Which protocol sends emails?",
+        "options": [
+            "FTP",
+            "SMTP",
+            "IMAP",
+            "HTTP"
+        ],
+        "answer": "SMTP"
+    },
+    {
+        "question": "Which property makes text bold?",
+        "options": [
+            "font-style",
+            "weight",
+            "font-weight",
+            "bold"
+        ],
+        "answer": "font-weight"
+    },
+    {
+        "question": "Which protocol sends emails?",
+        "options": [
+            "FTP",
+            "SMTP",
+            "IMAP",
+            "HTTP"
+        ],
+        "answer": "SMTP"
+    },
+    {
+        "question": "What is the maximum children of a binary tree node?",
+        "options": [
+            "Unlimited",
+            "1",
+            "3",
+            "2"
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Which structure uses LIFO?",
+        "options": [
+            "Stack",
+            "Graph",
+            "Array",
+            "Queue"
+        ],
+        "answer": "Stack"
+    },
+    {
+        "question": "Which is a non-preemptive scheduling?",
+        "options": [
+            "Priority",
+            "Round Robin",
+            "FCFS",
+            "SJF"
+        ],
+        "answer": "FCFS"
+    },
+    {
+        "question": "What is the time complexity of binary search?",
+        "options": [
+            "O(n)",
+            "O(1)",
+            "O(log n)",
+            "O(n log n)"
+        ],
+        "answer": "O(log n)"
+    },
+    {
+        "question": "Which data type is immutable in Python?",
+        "options": [
+            "Tuple",
+            "Set",
+            "List",
+            "Dictionary"
+        ],
+        "answer": "Tuple"
+    },
+    {
+        "question": "Which SQL command removes a record?",
+        "options": [
+            "TRUNCATE",
+            "REMOVE",
+            "DELETE",
+            "DROP"
+        ],
+        "answer": "DELETE"
+    },
+    {
+        "question": "Which company developed JavaScript?",
+        "options": [
+            "Microsoft",
+            "Google",
+            "Sun Microsystems",
+            "Netscape"
+        ],
+        "answer": "Netscape"
+    },
+    {
+        "question": "Which attack injects SQL code?",
+        "options": [
+            "XSS",
+            "SQL Injection",
+            "Phishing",
+            "MITM"
+        ],
+        "answer": "SQL Injection"
+    },
+    {
+        "question": "What does HTTPS use for security?",
+        "options": [
+            "Hashing",
+            "VPN",
+            "SSL/TLS",
+            "Firewall"
+        ],
+        "answer": "SSL/TLS"
+    },
+    {
+        "question": "What does <h1> represent?",
+        "options": [
+            "The largest heading",
+            "Horizontal line",
+            "Title",
+            "Paragraph"
+        ],
+        "answer": "The largest heading"
+    },
+    {
+        "question": "What is the maximum children of a binary tree node?",
+        "options": [
+            "Unlimited",
+            "1",
+            "3",
+            "2"
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Which is a non-preemptive scheduling?",
+        "options": [
+            "Priority",
+            "Round Robin",
+            "FCFS",
+            "SJF"
+        ],
+        "answer": "FCFS"
+    },
+    {
+        "question": "Which keyword declares a block-scoped variable?",
+        "options": [
+            "define",
+            "var",
+            "let",
+            "const"
+        ],
+        "answer": "let"
+    },
+    {
+        "question": "Which keyword is used to define a function in Python?",
+        "options": [
+            "function",
+            "lambda",
+            "func",
+            "def"
+        ],
+        "answer": "def"
+    },
+    {
+        "question": "What does ACID stand for in DB?",
+        "options": [
+            "Add, Change, Insert, Delete",
+            "Atomicity, Consistency, Isolation, Durability",
+            "None",
+            "Accuracy, Control, Integrity, Data"
+        ],
+        "answer": "Atomicity, Consistency, Isolation, Durability"
+    },
+    {
+        "question": "What is the output of type([])?",
+        "options": [
+            "<class 'set'>",
+            "<class 'dict'>",
+            "<class 'list'>",
+            "<class 'tuple'>"
+        ],
+        "answer": "<class 'list'>"
+    },
+    {
+        "question": "What is the maximum children of a binary tree node?",
+        "options": [
+            "Unlimited",
+            "1",
+            "3",
+            "2"
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "What is the output of type([])?",
+        "options": [
+            "<class 'set'>",
+            "<class 'dict'>",
+            "<class 'list'>",
+            "<class 'tuple'>"
+        ],
+        "answer": "<class 'list'>"
+    },
+    {
+        "question": "Which keyword is used to define a function in Python?",
+        "options": [
+            "function",
+            "lambda",
+            "func",
+            "def"
+        ],
+        "answer": "def"
+    },
+    {
+        "question": "Which device connects different networks?",
+        "options": [
+            "Router",
+            "Repeater",
+            "Switch",
+            "Hub"
+        ],
+        "answer": "Router"
+    },
+    {
+        "question": "What is the time complexity of binary search?",
+        "options": [
+            "O(n)",
+            "O(1)",
+            "O(log n)",
+            "O(n log n)"
+        ],
+        "answer": "O(log n)"
+    },
+    {
+        "question": "Which structure uses LIFO?",
+        "options": [
+            "Stack",
+            "Graph",
+            "Array",
+            "Queue"
+        ],
+        "answer": "Stack"
+    },
+    {
+        "question": "Which device connects different networks?",
+        "options": [
+            "Router",
+            "Repeater",
+            "Switch",
+            "Hub"
+        ],
+        "answer": "Router"
+    },
+    {
+        "question": "What will typeof NaN return?",
+        "options": [
+            "NaN",
+            "object",
+            "undefined",
+            "number"
+        ],
+        "answer": "number"
+    },
+    {
+        "question": "What does <h1> represent?",
+        "options": [
+            "The largest heading",
+            "Horizontal line",
+            "Title",
+            "Paragraph"
+        ],
+        "answer": "The largest heading"
+    },
+    {
+        "question": "Which HTML tag is used to create a hyperlink?",
+        "options": [
+            "<href>",
+            "<p>",
+            "<link>",
+            "<a>"
+        ],
+        "answer": "<a>"
+    },
+    {
+        "question": "What is the output of type([])?",
+        "options": [
+            "<class 'set'>",
+            "<class 'dict'>",
+            "<class 'list'>",
+            "<class 'tuple'>"
+        ],
+        "answer": "<class 'list'>"
+    },
+    {
+        "question": "Which company developed JavaScript?",
+        "options": [
+            "Microsoft",
+            "Google",
+            "Sun Microsystems",
+            "Netscape"
+        ],
+        "answer": "Netscape"
+    },
+    {
+        "question": "Which CSS property changes text color?",
+        "options": [
+            "font-size",
+            "color",
+            "background-color",
+            "text-style"
+        ],
+        "answer": "color"
+    },
+    {
+        "question": "Which is NOT a hashing algorithm?",
+        "options": [
+            "SHA1",
+            "MD5",
+            "SHA256",
+            "AES"
+        ],
+        "answer": "AES"
+    },
+    {
+        "question": "Which SQL command removes a record?",
+        "options": [
+            "TRUNCATE",
+            "REMOVE",
+            "DELETE",
+            "DROP"
+        ],
+        "answer": "DELETE"
+    },
+    {
+        "question": "Which data structure is used in BFS?",
+        "options": [
+            "Tree",
+            "Stack",
+            "Heap",
+            "Queue"
+        ],
+        "answer": "Queue"
+    },
+    {
+        "question": "Which property makes text bold?",
+        "options": [
+            "font-style",
+            "weight",
+            "font-weight",
+            "bold"
+        ],
+        "answer": "font-weight"
+    },
+    {
+        "question": "Which company developed JavaScript?",
+        "options": [
+            "Microsoft",
+            "Google",
+            "Sun Microsystems",
+            "Netscape"
+        ],
+        "answer": "Netscape"
+    },
+    {
+        "question": "Which data structure is used in BFS?",
+        "options": [
+            "Tree",
+            "Stack",
+            "Heap",
+            "Queue"
+        ],
+        "answer": "Queue"
+    },
+    {
+        "question": "Which SQL keyword sorts results?",
+        "options": [
+            "SORT",
+            "GROUP BY",
+            "ORDER BY",
+            "RANK"
+        ],
+        "answer": "ORDER BY"
+    },
+    {
+        "question": "What does ACID stand for in DB?",
+        "options": [
+            "Add, Change, Insert, Delete",
+            "Atomicity, Consistency, Isolation, Durability",
+            "None",
+            "Accuracy, Control, Integrity, Data"
+        ],
+        "answer": "Atomicity, Consistency, Isolation, Durability"
+    },
+    {
+        "question": "Which is a non-preemptive scheduling?",
+        "options": [
+            "Priority",
+            "Round Robin",
+            "FCFS",
+            "SJF"
+        ],
+        "answer": "FCFS"
+    },
+    {
+        "question": "Which protocol sends emails?",
+        "options": [
+            "FTP",
+            "SMTP",
+            "IMAP",
+            "HTTP"
+        ],
+        "answer": "SMTP"
+    },
+    {
+        "question": "What unit is relative to the parent element?",
+        "options": [
+            "em",
+            "%",
+            "vh",
+            "px"
+        ],
+        "answer": "em"
+    },
+    {
+        "question": "Which is NOT a scheduling algorithm?",
+        "options": [
+            "Round Robin",
+            "Fastest Path Routing",
+            "Shortest Job Next",
+            "FCFS"
+        ],
+        "answer": "Fastest Path Routing"
+    },
+    {
+        "question": "What is the time complexity of binary search?",
+        "options": [
+            "O(n)",
+            "O(1)",
+            "O(log n)",
+            "O(n log n)"
+        ],
+        "answer": "O(log n)"
+    },
+    {
+        "question": "Which company developed JavaScript?",
+        "options": [
+            "Microsoft",
+            "Google",
+            "Sun Microsystems",
+            "Netscape"
+        ],
+        "answer": "Netscape"
+    },
+    {
+        "question": "Which structure uses LIFO?",
+        "options": [
+            "Stack",
+            "Graph",
+            "Array",
+            "Queue"
+        ],
+        "answer": "Stack"
+    },
+    {
+        "question": "Which structure uses LIFO?",
+        "options": [
+            "Stack",
+            "Graph",
+            "Array",
+            "Queue"
+        ],
+        "answer": "Stack"
+    },
+    {
+        "question": "What will typeof NaN return?",
+        "options": [
+            "NaN",
+            "object",
+            "undefined",
+            "number"
+        ],
+        "answer": "number"
+    },
+    {
+        "question": "What is the maximum children of a binary tree node?",
+        "options": [
+            "Unlimited",
+            "1",
+            "3",
+            "2"
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Which device connects different networks?",
+        "options": [
+            "Router",
+            "Repeater",
+            "Switch",
+            "Hub"
+        ],
+        "answer": "Router"
+    },
+    {
+        "question": "Which data type is immutable in Python?",
+        "options": [
+            "Tuple",
+            "Set",
+            "List",
+            "Dictionary"
+        ],
+        "answer": "Tuple"
+    },
+    {
+        "question": "Which data type is immutable in Python?",
+        "options": [
+            "Tuple",
+            "Set",
+            "List",
+            "Dictionary"
+        ],
+        "answer": "Tuple"
+    },
+    {
+        "question": "Which SQL command removes a record?",
+        "options": [
+            "TRUNCATE",
+            "REMOVE",
+            "DELETE",
+            "DROP"
+        ],
+        "answer": "DELETE"
+    },
+    {
+        "question": "Which sorting algorithm is stable?",
+        "options": [
+            "Heap Sort",
+            "Merge Sort",
+            "Quick Sort",
+            "Selection Sort"
+        ],
+        "answer": "Merge Sort"
+    },
+    {
+        "question": "What is the maximum children of a binary tree node?",
+        "options": [
+            "Unlimited",
+            "1",
+            "3",
+            "2"
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Which CSS property changes text color?",
+        "options": [
+            "font-size",
+            "color",
+            "background-color",
+            "text-style"
+        ],
+        "answer": "color"
+    },
+    {
+        "question": "Which SQL command removes a record?",
+        "options": [
+            "TRUNCATE",
+            "REMOVE",
+            "DELETE",
+            "DROP"
+        ],
+        "answer": "DELETE"
+    },
+    {
+        "question": "Which tag inserts a line break?",
+        "options": [
+            "<break>",
+            "<br>",
+            "<p>",
+            "<lb>"
+        ],
+        "answer": "<br>"
+    },
+    {
+        "question": "What will typeof NaN return?",
+        "options": [
+            "NaN",
+            "object",
+            "undefined",
+            "number"
+        ],
+        "answer": "number"
+    },
+    {
+        "question": "What unit is relative to the parent element?",
+        "options": [
+            "em",
+            "%",
+            "vh",
+            "px"
+        ],
+        "answer": "em"
+    },
+    {
+        "question": "Which layer is IP in?",
+        "options": [
+            "Data Link",
+            "Transport",
+            "Network",
+            "Application"
+        ],
+        "answer": "Network"
+    },
+    {
+        "question": "Which SQL command removes a record?",
+        "options": [
+            "TRUNCATE",
+            "REMOVE",
+            "DELETE",
+            "DROP"
+        ],
+        "answer": "DELETE"
+    },
+    {
+        "question": "Which property makes text bold?",
+        "options": [
+            "font-style",
+            "weight",
+            "font-weight",
+            "bold"
+        ],
+        "answer": "font-weight"
+    },
+    {
+        "question": "Which company developed JavaScript?",
+        "options": [
+            "Microsoft",
+            "Google",
+            "Sun Microsystems",
+            "Netscape"
+        ],
+        "answer": "Netscape"
+    },
+    {
+        "question": "What is used for process synchronization?",
+        "options": [
+            "Cache",
+            "Thread",
+            "Buffer",
+            "Semaphore"
+        ],
+        "answer": "Semaphore"
+    },
+    {
+        "question": "What does ACID stand for in DB?",
+        "options": [
+            "Add, Change, Insert, Delete",
+            "Atomicity, Consistency, Isolation, Durability",
+            "None",
+            "Accuracy, Control, Integrity, Data"
+        ],
+        "answer": "Atomicity, Consistency, Isolation, Durability"
+    },
+    {
+        "question": "Which data structure works on FIFO?",
+        "options": [
+            "Tree",
+            "Queue",
+            "Stack",
+            "Linked List"
+        ],
+        "answer": "Queue"
+    },
+    {
+        "question": "Which structure uses LIFO?",
+        "options": [
+            "Stack",
+            "Graph",
+            "Array",
+            "Queue"
+        ],
+        "answer": "Stack"
+    },
+    {
+        "question": "Which CSS property changes text color?",
+        "options": [
+            "font-size",
+            "color",
+            "background-color",
+            "text-style"
+        ],
+        "answer": "color"
+    },
+    {
+        "question": "Which keyword declares a block-scoped variable?",
+        "options": [
+            "define",
+            "var",
+            "let",
+            "const"
+        ],
+        "answer": "let"
+    },
+    {
+        "question": "Which data structure works on FIFO?",
+        "options": [
+            "Tree",
+            "Queue",
+            "Stack",
+            "Linked List"
+        ],
+        "answer": "Queue"
+    },
+    {
+        "question": "Which company developed JavaScript?",
+        "options": [
+            "Microsoft",
+            "Google",
+            "Sun Microsystems",
+            "Netscape"
+        ],
+        "answer": "Netscape"
+    },
+    {
+        "question": "Which keyword is used to define a function in Python?",
+        "options": [
+            "function",
+            "lambda",
+            "func",
+            "def"
+        ],
+        "answer": "def"
+    },
+    {
+        "question": "Which attack injects SQL code?",
+        "options": [
+            "XSS",
+            "SQL Injection",
+            "Phishing",
+            "MITM"
+        ],
+        "answer": "SQL Injection"
+    },
+    {
+        "question": "Which is NOT a hashing algorithm?",
+        "options": [
+            "SHA1",
+            "MD5",
+            "SHA256",
+            "AES"
+        ],
+        "answer": "AES"
+    },
+    {
+        "question": "Which is a non-preemptive scheduling?",
+        "options": [
+            "Priority",
+            "Round Robin",
+            "FCFS",
+            "SJF"
+        ],
+        "answer": "FCFS"
+    },
+    {
+        "question": "What does <h1> represent?",
+        "options": [
+            "The largest heading",
+            "Horizontal line",
+            "Title",
+            "Paragraph"
+        ],
+        "answer": "The largest heading"
+    },
+    {
+        "question": "Which keyword is used to define a function in Python?",
+        "options": [
+            "function",
+            "lambda",
+            "func",
+            "def"
+        ],
+        "answer": "def"
+    },
+    {
+        "question": "Which keyword is used to define a function in Python?",
+        "options": [
+            "function",
+            "lambda",
+            "func",
+            "def"
+        ],
+        "answer": "def"
+    },
+    {
+        "question": "Which data structure works on FIFO?",
+        "options": [
+            "Tree",
+            "Queue",
+            "Stack",
+            "Linked List"
+        ],
+        "answer": "Queue"
+    },
+    {
+        "question": "What is used for process synchronization?",
+        "options": [
+            "Cache",
+            "Thread",
+            "Buffer",
+            "Semaphore"
+        ],
+        "answer": "Semaphore"
+    },
+    {
+        "question": "Which is a non-preemptive scheduling?",
+        "options": [
+            "Priority",
+            "Round Robin",
+            "FCFS",
+            "SJF"
+        ],
+        "answer": "FCFS"
+    },
+    {
+        "question": "Which keyword declares a block-scoped variable?",
+        "options": [
+            "define",
+            "var",
+            "let",
+            "const"
+        ],
+        "answer": "let"
+    },
+    {
+        "question": "Which structure uses LIFO?",
+        "options": [
+            "Stack",
+            "Graph",
+            "Array",
+            "Queue"
+        ],
+        "answer": "Stack"
+    },
+    {
+        "question": "Which sorting algorithm is stable?",
+        "options": [
+            "Heap Sort",
+            "Merge Sort",
+            "Quick Sort",
+            "Selection Sort"
+        ],
+        "answer": "Merge Sort"
+    },
+    {
+        "question": "Which HTML tag is used to create a hyperlink?",
+        "options": [
+            "<href>",
+            "<p>",
+            "<link>",
+            "<a>"
+        ],
+        "answer": "<a>"
+    },
+    {
+        "question": "Which SQL command removes a record?",
+        "options": [
+            "TRUNCATE",
+            "REMOVE",
+            "DELETE",
+            "DROP"
+        ],
+        "answer": "DELETE"
+    },
+    {
+        "question": "Which SQL command removes a record?",
+        "options": [
+            "TRUNCATE",
+            "REMOVE",
+            "DELETE",
+            "DROP"
+        ],
+        "answer": "DELETE"
+    },
+    {
+        "question": "What is used for process synchronization?",
+        "options": [
+            "Cache",
+            "Thread",
+            "Buffer",
+            "Semaphore"
+        ],
+        "answer": "Semaphore"
+    },
+    {
+        "question": "Which data structure is used in BFS?",
+        "options": [
+            "Tree",
+            "Stack",
+            "Heap",
+            "Queue"
+        ],
+        "answer": "Queue"
+    },
+    {
+        "question": "Which CSS property changes text color?",
+        "options": [
+            "font-size",
+            "color",
+            "background-color",
+            "text-style"
+        ],
+        "answer": "color"
+    },
+    {
+        "question": "Which SQL command removes a record?",
+        "options": [
+            "TRUNCATE",
+            "REMOVE",
+            "DELETE",
+            "DROP"
+        ],
+        "answer": "DELETE"
+    },
+    {
+        "question": "Which company developed JavaScript?",
+        "options": [
+            "Microsoft",
+            "Google",
+            "Sun Microsystems",
+            "Netscape"
+        ],
+        "answer": "Netscape"
+    },
+    {
+        "question": "What does HTTPS use for security?",
+        "options": [
+            "Hashing",
+            "VPN",
+            "SSL/TLS",
+            "Firewall"
+        ],
+        "answer": "SSL/TLS"
+    },
+    {
+        "question": "What is used for process synchronization?",
+        "options": [
+            "Cache",
+            "Thread",
+            "Buffer",
+            "Semaphore"
+        ],
+        "answer": "Semaphore"
+    },
+    {
+        "question": "Which layer is IP in?",
+        "options": [
+            "Data Link",
+            "Transport",
+            "Network",
+            "Application"
+        ],
+        "answer": "Network"
+    },
+    {
+        "question": "Which SQL command removes a record?",
+        "options": [
+            "TRUNCATE",
+            "REMOVE",
+            "DELETE",
+            "DROP"
+        ],
+        "answer": "DELETE"
+    },
+    {
+        "question": "What is used for process synchronization?",
+        "options": [
+            "Cache",
+            "Thread",
+            "Buffer",
+            "Semaphore"
+        ],
+        "answer": "Semaphore"
+    },
+    {
+        "question": "What does HTTPS use for security?",
+        "options": [
+            "Hashing",
+            "VPN",
+            "SSL/TLS",
+            "Firewall"
+        ],
+        "answer": "SSL/TLS"
+    },
+    {
+        "question": "Which structure uses LIFO?",
+        "options": [
+            "Stack",
+            "Graph",
+            "Array",
+            "Queue"
+        ],
+        "answer": "Stack"
+    },
+    {
+        "question": "What does HTTPS use for security?",
+        "options": [
+            "Hashing",
+            "VPN",
+            "SSL/TLS",
+            "Firewall"
+        ],
+        "answer": "SSL/TLS"
+    },
+    {
+        "question": "What unit is relative to the parent element?",
+        "options": [
+            "em",
+            "%",
+            "vh",
+            "px"
+        ],
+        "answer": "em"
+    },
+    {
+        "question": "Which is a non-preemptive scheduling?",
+        "options": [
+            "Priority",
+            "Round Robin",
+            "FCFS",
+            "SJF"
+        ],
+        "answer": "FCFS"
+    },
+    {
+        "question": "Which sorting algorithm is stable?",
+        "options": [
+            "Heap Sort",
+            "Merge Sort",
+            "Quick Sort",
+            "Selection Sort"
+        ],
+        "answer": "Merge Sort"
+    },
+    {
+        "question": "Which company developed JavaScript?",
+        "options": [
+            "Microsoft",
+            "Google",
+            "Sun Microsystems",
+            "Netscape"
+        ],
+        "answer": "Netscape"
+    },
+    {
+        "question": "What unit is relative to the parent element?",
+        "options": [
+            "em",
+            "%",
+            "vh",
+            "px"
+        ],
+        "answer": "em"
+    },
+    {
+        "question": "Which keyword declares a block-scoped variable?",
+        "options": [
+            "define",
+            "var",
+            "let",
+            "const"
+        ],
+        "answer": "let"
+    },
+    {
+        "question": "What is the time complexity of binary search?",
+        "options": [
+            "O(n)",
+            "O(1)",
+            "O(log n)",
+            "O(n log n)"
+        ],
+        "answer": "O(log n)"
+    },
+    {
+        "question": "Which property makes text bold?",
+        "options": [
+            "font-style",
+            "weight",
+            "font-weight",
+            "bold"
+        ],
+        "answer": "font-weight"
+    },
+    {
+        "question": "Which SQL keyword sorts results?",
+        "options": [
+            "SORT",
+            "GROUP BY",
+            "ORDER BY",
+            "RANK"
+        ],
+        "answer": "ORDER BY"
+    },
+    {
+        "question": "What is the output of type([])?",
+        "options": [
+            "<class 'set'>",
+            "<class 'dict'>",
+            "<class 'list'>",
+            "<class 'tuple'>"
+        ],
+        "answer": "<class 'list'>"
+    },
+    {
+        "question": "What will typeof NaN return?",
+        "options": [
+            "NaN",
+            "object",
+            "undefined",
+            "number"
+        ],
+        "answer": "number"
+    },
+    {
+        "question": "Which data type is immutable in Python?",
+        "options": [
+            "Tuple",
+            "Set",
+            "List",
+            "Dictionary"
+        ],
+        "answer": "Tuple"
+    },
+    {
+        "question": "Which layer is IP in?",
+        "options": [
+            "Data Link",
+            "Transport",
+            "Network",
+            "Application"
+        ],
+        "answer": "Network"
+    },
+    {
+        "question": "Which property makes text bold?",
+        "options": [
+            "font-style",
+            "weight",
+            "font-weight",
+            "bold"
+        ],
+        "answer": "font-weight"
+    },
+    {
+        "question": "What will typeof NaN return?",
+        "options": [
+            "NaN",
+            "object",
+            "undefined",
+            "number"
+        ],
+        "answer": "number"
+    },
+    {
+        "question": "What is used for process synchronization?",
+        "options": [
+            "Cache",
+            "Thread",
+            "Buffer",
+            "Semaphore"
+        ],
+        "answer": "Semaphore"
+    },
+    {
+        "question": "Which data type is immutable in Python?",
+        "options": [
+            "Tuple",
+            "Set",
+            "List",
+            "Dictionary"
+        ],
+        "answer": "Tuple"
+    },
+    {
+        "question": "Which SQL keyword sorts results?",
+        "options": [
+            "SORT",
+            "GROUP BY",
+            "ORDER BY",
+            "RANK"
+        ],
+        "answer": "ORDER BY"
+    },
+    {
+        "question": "What is the time complexity of binary search?",
+        "options": [
+            "O(n)",
+            "O(1)",
+            "O(log n)",
+            "O(n log n)"
+        ],
+        "answer": "O(log n)"
+    },
+    {
+        "question": "Which attack injects SQL code?",
+        "options": [
+            "XSS",
+            "SQL Injection",
+            "Phishing",
+            "MITM"
+        ],
+        "answer": "SQL Injection"
+    },
+    {
+        "question": "What is the time complexity of binary search?",
+        "options": [
+            "O(n)",
+            "O(1)",
+            "O(log n)",
+            "O(n log n)"
+        ],
+        "answer": "O(log n)"
+    },
+    {
+        "question": "What does HTTPS use for security?",
+        "options": [
+            "Hashing",
+            "VPN",
+            "SSL/TLS",
+            "Firewall"
+        ],
+        "answer": "SSL/TLS"
+    },
+    {
+        "question": "Which layer is IP in?",
+        "options": [
+            "Data Link",
+            "Transport",
+            "Network",
+            "Application"
+        ],
+        "answer": "Network"
+    },
+    {
+        "question": "Which data structure is used in BFS?",
+        "options": [
+            "Tree",
+            "Stack",
+            "Heap",
+            "Queue"
+        ],
+        "answer": "Queue"
+    },
+    {
+        "question": "Which data structure works on FIFO?",
+        "options": [
+            "Tree",
+            "Queue",
+            "Stack",
+            "Linked List"
+        ],
+        "answer": "Queue"
+    },
+    {
+        "question": "What does HTTPS use for security?",
+        "options": [
+            "Hashing",
+            "VPN",
+            "SSL/TLS",
+            "Firewall"
+        ],
+        "answer": "SSL/TLS"
+    },
+    {
+        "question": "Which tag inserts a line break?",
+        "options": [
+            "<break>",
+            "<br>",
+            "<p>",
+            "<lb>"
+        ],
+        "answer": "<br>"
+    },
+    {
+        "question": "Which attack injects SQL code?",
+        "options": [
+            "XSS",
+            "SQL Injection",
+            "Phishing",
+            "MITM"
+        ],
+        "answer": "SQL Injection"
+    },
+    {
+        "question": "What does <h1> represent?",
+        "options": [
+            "The largest heading",
+            "Horizontal line",
+            "Title",
+            "Paragraph"
+        ],
+        "answer": "The largest heading"
+    },
+    {
+        "question": "Which is NOT a hashing algorithm?",
+        "options": [
+            "SHA1",
+            "MD5",
+            "SHA256",
+            "AES"
+        ],
+        "answer": "AES"
+    },
+    {
+        "question": "Which tag inserts a line break?",
+        "options": [
+            "<break>",
+            "<br>",
+            "<p>",
+            "<lb>"
+        ],
+        "answer": "<br>"
+    },
+    {
+        "question": "Which attack injects SQL code?",
+        "options": [
+            "XSS",
+            "SQL Injection",
+            "Phishing",
+            "MITM"
+        ],
+        "answer": "SQL Injection"
+    },
+    {
+        "question": "Which device connects different networks?",
+        "options": [
+            "Router",
+            "Repeater",
+            "Switch",
+            "Hub"
+        ],
+        "answer": "Router"
+    },
+    {
+        "question": "Which company developed JavaScript?",
+        "options": [
+            "Microsoft",
+            "Google",
+            "Sun Microsystems",
+            "Netscape"
+        ],
+        "answer": "Netscape"
+    },
+    {
+        "question": "Which data structure works on FIFO?",
+        "options": [
+            "Tree",
+            "Queue",
+            "Stack",
+            "Linked List"
+        ],
+        "answer": "Queue"
+    },
+    {
+        "question": "What is the output of type([])?",
+        "options": [
+            "<class 'set'>",
+            "<class 'dict'>",
+            "<class 'list'>",
+            "<class 'tuple'>"
+        ],
+        "answer": "<class 'list'>"
+    },
+    {
+        "question": "Which property makes text bold?",
+        "options": [
+            "font-style",
+            "weight",
+            "font-weight",
+            "bold"
+        ],
+        "answer": "font-weight"
+    },
+    {
+        "question": "What is used for process synchronization?",
+        "options": [
+            "Cache",
+            "Thread",
+            "Buffer",
+            "Semaphore"
+        ],
+        "answer": "Semaphore"
+    },
+    {
+        "question": "Which device connects different networks?",
+        "options": [
+            "Router",
+            "Repeater",
+            "Switch",
+            "Hub"
+        ],
+        "answer": "Router"
+    },
+    {
+        "question": "Which sorting algorithm is stable?",
+        "options": [
+            "Heap Sort",
+            "Merge Sort",
+            "Quick Sort",
+            "Selection Sort"
+        ],
+        "answer": "Merge Sort"
+    },
+    {
+        "question": "What is the time complexity of binary search?",
+        "options": [
+            "O(n)",
+            "O(1)",
+            "O(log n)",
+            "O(n log n)"
+        ],
+        "answer": "O(log n)"
+    },
+    {
+        "question": "Which device connects different networks?",
+        "options": [
+            "Router",
+            "Repeater",
+            "Switch",
+            "Hub"
+        ],
+        "answer": "Router"
+    },
+    {
+        "question": "Which data structure works on FIFO?",
+        "options": [
+            "Tree",
+            "Queue",
+            "Stack",
+            "Linked List"
+        ],
+        "answer": "Queue"
+    },
+    {
+        "question": "What will typeof NaN return?",
+        "options": [
+            "NaN",
+            "object",
+            "undefined",
+            "number"
+        ],
+        "answer": "number"
+    },
+    {
+        "question": "Which device connects different networks?",
+        "options": [
+            "Router",
+            "Repeater",
+            "Switch",
+            "Hub"
+        ],
+        "answer": "Router"
+    },
+    {
+        "question": "What is the time complexity of binary search?",
+        "options": [
+            "O(n)",
+            "O(1)",
+            "O(log n)",
+            "O(n log n)"
+        ],
+        "answer": "O(log n)"
+    },
+    {
+        "question": "Which data structure works on FIFO?",
+        "options": [
+            "Tree",
+            "Queue",
+            "Stack",
+            "Linked List"
+        ],
+        "answer": "Queue"
+    },
+    {
+        "question": "Which protocol sends emails?",
+        "options": [
+            "FTP",
+            "SMTP",
+            "IMAP",
+            "HTTP"
+        ],
+        "answer": "SMTP"
+    },
+    {
+        "question": "What is used for process synchronization?",
+        "options": [
+            "Cache",
+            "Thread",
+            "Buffer",
+            "Semaphore"
+        ],
+        "answer": "Semaphore"
+    },
+    {
+        "question": "What is the maximum children of a binary tree node?",
+        "options": [
+            "Unlimited",
+            "1",
+            "3",
+            "2"
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "What does ACID stand for in DB?",
+        "options": [
+            "Add, Change, Insert, Delete",
+            "Atomicity, Consistency, Isolation, Durability",
+            "None",
+            "Accuracy, Control, Integrity, Data"
+        ],
+        "answer": "Atomicity, Consistency, Isolation, Durability"
+    },
+    {
+        "question": "Which SQL keyword sorts results?",
+        "options": [
+            "SORT",
+            "GROUP BY",
+            "ORDER BY",
+            "RANK"
+        ],
+        "answer": "ORDER BY"
+    },
+    {
+        "question": "Which keyword is used to define a function in Python?",
+        "options": [
+            "function",
+            "lambda",
+            "func",
+            "def"
+        ],
+        "answer": "def"
+    },
+    {
+        "question": "Which device connects different networks?",
+        "options": [
+            "Router",
+            "Repeater",
+            "Switch",
+            "Hub"
+        ],
+        "answer": "Router"
+    },
+    {
+        "question": "Which SQL command removes a record?",
+        "options": [
+            "TRUNCATE",
+            "REMOVE",
+            "DELETE",
+            "DROP"
+        ],
+        "answer": "DELETE"
+    },
+    {
+        "question": "Which tag inserts a line break?",
+        "options": [
+            "<break>",
+            "<br>",
+            "<p>",
+            "<lb>"
+        ],
+        "answer": "<br>"
+    },
+    {
+        "question": "Which SQL keyword sorts results?",
+        "options": [
+            "SORT",
+            "GROUP BY",
+            "ORDER BY",
+            "RANK"
+        ],
+        "answer": "ORDER BY"
+    },
+    {
+        "question": "Which data type is immutable in Python?",
+        "options": [
+            "Tuple",
+            "Set",
+            "List",
+            "Dictionary"
+        ],
+        "answer": "Tuple"
+    },
+    {
+        "question": "What does <h1> represent?",
+        "options": [
+            "The largest heading",
+            "Horizontal line",
+            "Title",
+            "Paragraph"
+        ],
+        "answer": "The largest heading"
+    },
+    {
+        "question": "Which is NOT a hashing algorithm?",
+        "options": [
+            "SHA1",
+            "MD5",
+            "SHA256",
+            "AES"
+        ],
+        "answer": "AES"
+    },
+    {
+        "question": "Which SQL keyword sorts results?",
+        "options": [
+            "SORT",
+            "GROUP BY",
+            "ORDER BY",
+            "RANK"
+        ],
+        "answer": "ORDER BY"
+    },
+    {
+        "question": "What will typeof NaN return?",
+        "options": [
+            "NaN",
+            "object",
+            "undefined",
+            "number"
+        ],
+        "answer": "number"
+    },
+    {
+        "question": "Which device connects different networks?",
+        "options": [
+            "Router",
+            "Repeater",
+            "Switch",
+            "Hub"
+        ],
+        "answer": "Router"
+    },
+    {
+        "question": "Which is NOT a hashing algorithm?",
+        "options": [
+            "SHA1",
+            "MD5",
+            "SHA256",
+            "AES"
+        ],
+        "answer": "AES"
+    },
+    {
+        "question": "Which keyword declares a block-scoped variable?",
+        "options": [
+            "define",
+            "var",
+            "let",
+            "const"
+        ],
+        "answer": "let"
+    },
+    {
+        "question": "Which SQL command removes a record?",
+        "options": [
+            "TRUNCATE",
+            "REMOVE",
+            "DELETE",
+            "DROP"
+        ],
+        "answer": "DELETE"
+    },
+    {
+        "question": "Which layer is IP in?",
+        "options": [
+            "Data Link",
+            "Transport",
+            "Network",
+            "Application"
+        ],
+        "answer": "Network"
+    },
+    {
+        "question": "Which tag inserts a line break?",
+        "options": [
+            "<break>",
+            "<br>",
+            "<p>",
+            "<lb>"
+        ],
+        "answer": "<br>"
+    },
+    {
+        "question": "Which data type is immutable in Python?",
+        "options": [
+            "Tuple",
+            "Set",
+            "List",
+            "Dictionary"
+        ],
+        "answer": "Tuple"
+    },
+    {
+        "question": "What is used for process synchronization?",
+        "options": [
+            "Cache",
+            "Thread",
+            "Buffer",
+            "Semaphore"
+        ],
+        "answer": "Semaphore"
+    },
+    {
+        "question": "Which is a non-preemptive scheduling?",
+        "options": [
+            "Priority",
+            "Round Robin",
+            "FCFS",
+            "SJF"
+        ],
+        "answer": "FCFS"
+    },
+    {
+        "question": "Which keyword declares a block-scoped variable?",
+        "options": [
+            "define",
+            "var",
+            "let",
+            "const"
+        ],
+        "answer": "let"
+    },
+    {
+        "question": "What does <h1> represent?",
+        "options": [
+            "The largest heading",
+            "Horizontal line",
+            "Title",
+            "Paragraph"
+        ],
+        "answer": "The largest heading"
+    },
+    {
+        "question": "Which data structure is used in BFS?",
+        "options": [
+            "Tree",
+            "Stack",
+            "Heap",
+            "Queue"
+        ],
+        "answer": "Queue"
+    },
+    {
+        "question": "Which tag inserts a line break?",
+        "options": [
+            "<break>",
+            "<br>",
+            "<p>",
+            "<lb>"
+        ],
+        "answer": "<br>"
+    },
+    {
+        "question": "Which is a non-preemptive scheduling?",
+        "options": [
+            "Priority",
+            "Round Robin",
+            "FCFS",
+            "SJF"
+        ],
+        "answer": "FCFS"
+    },
+    {
+        "question": "What is used for process synchronization?",
+        "options": [
+            "Cache",
+            "Thread",
+            "Buffer",
+            "Semaphore"
+        ],
+        "answer": "Semaphore"
+    },
+    {
+        "question": "Which attack injects SQL code?",
+        "options": [
+            "XSS",
+            "SQL Injection",
+            "Phishing",
+            "MITM"
+        ],
+        "answer": "SQL Injection"
+    },
+    {
+        "question": "Which CSS property changes text color?",
+        "options": [
+            "font-size",
+            "color",
+            "background-color",
+            "text-style"
+        ],
+        "answer": "color"
+    },
+    {
+        "question": "Which attack injects SQL code?",
+        "options": [
+            "XSS",
+            "SQL Injection",
+            "Phishing",
+            "MITM"
+        ],
+        "answer": "SQL Injection"
+    },
+    {
+        "question": "Which data structure works on FIFO?",
+        "options": [
+            "Tree",
+            "Queue",
+            "Stack",
+            "Linked List"
+        ],
+        "answer": "Queue"
+    },
+    {
+        "question": "Which structure uses LIFO?",
+        "options": [
+            "Stack",
+            "Graph",
+            "Array",
+            "Queue"
+        ],
+        "answer": "Stack"
+    },
+    {
+        "question": "Which data structure is used in BFS?",
+        "options": [
+            "Tree",
+            "Stack",
+            "Heap",
+            "Queue"
+        ],
+        "answer": "Queue"
+    },
+    {
+        "question": "What does ACID stand for in DB?",
+        "options": [
+            "Add, Change, Insert, Delete",
+            "Atomicity, Consistency, Isolation, Durability",
+            "None",
+            "Accuracy, Control, Integrity, Data"
+        ],
+        "answer": "Atomicity, Consistency, Isolation, Durability"
+    },
+    {
+        "question": "Which property makes text bold?",
+        "options": [
+            "font-style",
+            "weight",
+            "font-weight",
+            "bold"
+        ],
+        "answer": "font-weight"
+    },
+    {
+        "question": "Which company developed JavaScript?",
+        "options": [
+            "Microsoft",
+            "Google",
+            "Sun Microsystems",
+            "Netscape"
+        ],
+        "answer": "Netscape"
+    },
+    {
+        "question": "Which data type is immutable in Python?",
+        "options": [
+            "Tuple",
+            "Set",
+            "List",
+            "Dictionary"
+        ],
+        "answer": "Tuple"
+    },
+    {
+        "question": "What is used for process synchronization?",
+        "options": [
+            "Cache",
+            "Thread",
+            "Buffer",
+            "Semaphore"
+        ],
+        "answer": "Semaphore"
+    },
+    {
+        "question": "Which CSS property changes text color?",
+        "options": [
+            "font-size",
+            "color",
+            "background-color",
+            "text-style"
+        ],
+        "answer": "color"
+    },
+    {
+        "question": "Which data type is immutable in Python?",
+        "options": [
+            "Tuple",
+            "Set",
+            "List",
+            "Dictionary"
+        ],
+        "answer": "Tuple"
+    },
+    {
+        "question": "What does <h1> represent?",
+        "options": [
+            "The largest heading",
+            "Horizontal line",
+            "Title",
+            "Paragraph"
+        ],
+        "answer": "The largest heading"
+    },
+    {
+        "question": "What is used for process synchronization?",
+        "options": [
+            "Cache",
+            "Thread",
+            "Buffer",
+            "Semaphore"
+        ],
+        "answer": "Semaphore"
+    },
+    {
+        "question": "Which protocol sends emails?",
+        "options": [
+            "FTP",
+            "SMTP",
+            "IMAP",
+            "HTTP"
+        ],
+        "answer": "SMTP"
+    },
+    {
+        "question": "Which device connects different networks?",
+        "options": [
+            "Router",
+            "Repeater",
+            "Switch",
+            "Hub"
+        ],
+        "answer": "Router"
+    },
+    {
+        "question": "Which is NOT a scheduling algorithm?",
+        "options": [
+            "Round Robin",
+            "Fastest Path Routing",
+            "Shortest Job Next",
+            "FCFS"
+        ],
+        "answer": "Fastest Path Routing"
+    },
+    {
+        "question": "Which data type is immutable in Python?",
+        "options": [
+            "Tuple",
+            "Set",
+            "List",
+            "Dictionary"
+        ],
+        "answer": "Tuple"
+    },
+    {
+        "question": "What will typeof NaN return?",
+        "options": [
+            "NaN",
+            "object",
+            "undefined",
+            "number"
+        ],
+        "answer": "number"
+    },
+    {
+        "question": "Which attack injects SQL code?",
+        "options": [
+            "XSS",
+            "SQL Injection",
+            "Phishing",
+            "MITM"
+        ],
+        "answer": "SQL Injection"
+    },
+    {
+        "question": "Which company developed JavaScript?",
+        "options": [
+            "Microsoft",
+            "Google",
+            "Sun Microsystems",
+            "Netscape"
+        ],
+        "answer": "Netscape"
+    },
+    {
+        "question": "Which keyword declares a block-scoped variable?",
+        "options": [
+            "define",
+            "var",
+            "let",
+            "const"
+        ],
+        "answer": "let"
+    },
+    {
+        "question": "Which is a non-preemptive scheduling?",
+        "options": [
+            "Priority",
+            "Round Robin",
+            "FCFS",
+            "SJF"
+        ],
+        "answer": "FCFS"
+    },
+    {
+        "question": "Which data type is immutable in Python?",
+        "options": [
+            "Tuple",
+            "Set",
+            "List",
+            "Dictionary"
+        ],
+        "answer": "Tuple"
+    },
+    {
+        "question": "What does HTTPS use for security?",
+        "options": [
+            "Hashing",
+            "VPN",
+            "SSL/TLS",
+            "Firewall"
+        ],
+        "answer": "SSL/TLS"
+    },
+    {
+        "question": "Which property makes text bold?",
+        "options": [
+            "font-style",
+            "weight",
+            "font-weight",
+            "bold"
+        ],
+        "answer": "font-weight"
+    },
+    {
+        "question": "Which is a non-preemptive scheduling?",
+        "options": [
+            "Priority",
+            "Round Robin",
+            "FCFS",
+            "SJF"
+        ],
+        "answer": "FCFS"
+    },
+    {
+        "question": "Which layer is IP in?",
+        "options": [
+            "Data Link",
+            "Transport",
+            "Network",
+            "Application"
+        ],
+        "answer": "Network"
+    },
+    {
+        "question": "What does ACID stand for in DB?",
+        "options": [
+            "Add, Change, Insert, Delete",
+            "Atomicity, Consistency, Isolation, Durability",
+            "None",
+            "Accuracy, Control, Integrity, Data"
+        ],
+        "answer": "Atomicity, Consistency, Isolation, Durability"
+    },
+    {
+        "question": "Which is NOT a scheduling algorithm?",
+        "options": [
+            "Round Robin",
+            "Fastest Path Routing",
+            "Shortest Job Next",
+            "FCFS"
+        ],
+        "answer": "Fastest Path Routing"
+    },
+    {
+        "question": "Which structure uses LIFO?",
+        "options": [
+            "Stack",
+            "Graph",
+            "Array",
+            "Queue"
+        ],
+        "answer": "Stack"
+    },
+    {
+        "question": "What does <h1> represent?",
+        "options": [
+            "The largest heading",
+            "Horizontal line",
+            "Title",
+            "Paragraph"
+        ],
+        "answer": "The largest heading"
+    },
+    {
+        "question": "Which keyword is used to define a function in Python?",
+        "options": [
+            "function",
+            "lambda",
+            "func",
+            "def"
+        ],
+        "answer": "def"
+    },
+    {
+        "question": "Which protocol sends emails?",
+        "options": [
+            "FTP",
+            "SMTP",
+            "IMAP",
+            "HTTP"
+        ],
+        "answer": "SMTP"
+    },
+    {
+        "question": "Which company developed JavaScript?",
+        "options": [
+            "Microsoft",
+            "Google",
+            "Sun Microsystems",
+            "Netscape"
+        ],
+        "answer": "Netscape"
+    },
+    {
+        "question": "Which data type is immutable in Python?",
+        "options": [
+            "Tuple",
+            "Set",
+            "List",
+            "Dictionary"
+        ],
+        "answer": "Tuple"
+    },
+    {
+        "question": "What is the maximum children of a binary tree node?",
+        "options": [
+            "Unlimited",
+            "1",
+            "3",
+            "2"
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "What unit is relative to the parent element?",
+        "options": [
+            "em",
+            "%",
+            "vh",
+            "px"
+        ],
+        "answer": "em"
+    },
+    {
+        "question": "Which tag inserts a line break?",
+        "options": [
+            "<break>",
+            "<br>",
+            "<p>",
+            "<lb>"
+        ],
+        "answer": "<br>"
+    },
+    {
+        "question": "Which data structure is used in BFS?",
+        "options": [
+            "Tree",
+            "Stack",
+            "Heap",
+            "Queue"
+        ],
+        "answer": "Queue"
+    },
+    {
+        "question": "Which keyword is used to define a function in Python?",
+        "options": [
+            "function",
+            "lambda",
+            "func",
+            "def"
+        ],
+        "answer": "def"
+    },
+    {
+        "question": "What does ACID stand for in DB?",
+        "options": [
+            "Add, Change, Insert, Delete",
+            "Atomicity, Consistency, Isolation, Durability",
+            "None",
+            "Accuracy, Control, Integrity, Data"
+        ],
+        "answer": "Atomicity, Consistency, Isolation, Durability"
+    },
+    {
+        "question": "What will typeof NaN return?",
+        "options": [
+            "NaN",
+            "object",
+            "undefined",
+            "number"
+        ],
+        "answer": "number"
+    },
+    {
+        "question": "What is the time complexity of binary search?",
+        "options": [
+            "O(n)",
+            "O(1)",
+            "O(log n)",
+            "O(n log n)"
+        ],
+        "answer": "O(log n)"
+    },
+    {
+        "question": "Which data type is immutable in Python?",
+        "options": [
+            "Tuple",
+            "Set",
+            "List",
+            "Dictionary"
+        ],
+        "answer": "Tuple"
+    },
+    {
+        "question": "What is used for process synchronization?",
+        "options": [
+            "Cache",
+            "Thread",
+            "Buffer",
+            "Semaphore"
+        ],
+        "answer": "Semaphore"
+    },
+    {
+        "question": "Which attack injects SQL code?",
+        "options": [
+            "XSS",
+            "SQL Injection",
+            "Phishing",
+            "MITM"
+        ],
+        "answer": "SQL Injection"
+    },
+    {
+        "question": "What does ACID stand for in DB?",
+        "options": [
+            "Add, Change, Insert, Delete",
+            "Atomicity, Consistency, Isolation, Durability",
+            "None",
+            "Accuracy, Control, Integrity, Data"
+        ],
+        "answer": "Atomicity, Consistency, Isolation, Durability"
+    },
+    {
+        "question": "Which is NOT a scheduling algorithm?",
+        "options": [
+            "Round Robin",
+            "Fastest Path Routing",
+            "Shortest Job Next",
+            "FCFS"
+        ],
+        "answer": "Fastest Path Routing"
+    },
+    {
+        "question": "What is the output of type([])?",
+        "options": [
+            "<class 'set'>",
+            "<class 'dict'>",
+            "<class 'list'>",
+            "<class 'tuple'>"
+        ],
+        "answer": "<class 'list'>"
+    },
+    {
+        "question": "What does ACID stand for in DB?",
+        "options": [
+            "Add, Change, Insert, Delete",
+            "Atomicity, Consistency, Isolation, Durability",
+            "None",
+            "Accuracy, Control, Integrity, Data"
+        ],
+        "answer": "Atomicity, Consistency, Isolation, Durability"
+    },
+    {
+        "question": "Which data structure is used in BFS?",
+        "options": [
+            "Tree",
+            "Stack",
+            "Heap",
+            "Queue"
+        ],
+        "answer": "Queue"
+    },
+    {
+        "question": "Which is NOT a hashing algorithm?",
+        "options": [
+            "SHA1",
+            "MD5",
+            "SHA256",
+            "AES"
+        ],
+        "answer": "AES"
+    },
+    {
+        "question": "Which attack injects SQL code?",
+        "options": [
+            "XSS",
+            "SQL Injection",
+            "Phishing",
+            "MITM"
+        ],
+        "answer": "SQL Injection"
+    },
+    {
+        "question": "Which layer is IP in?",
+        "options": [
+            "Data Link",
+            "Transport",
+            "Network",
+            "Application"
+        ],
+        "answer": "Network"
+    },
+    {
+        "question": "Which SQL command removes a record?",
+        "options": [
+            "TRUNCATE",
+            "REMOVE",
+            "DELETE",
+            "DROP"
+        ],
+        "answer": "DELETE"
+    },
+    {
+        "question": "What does HTTPS use for security?",
+        "options": [
+            "Hashing",
+            "VPN",
+            "SSL/TLS",
+            "Firewall"
+        ],
+        "answer": "SSL/TLS"
+    },
+    {
+        "question": "Which sorting algorithm is stable?",
+        "options": [
+            "Heap Sort",
+            "Merge Sort",
+            "Quick Sort",
+            "Selection Sort"
+        ],
+        "answer": "Merge Sort"
+    },
+    {
+        "question": "Which is a non-preemptive scheduling?",
+        "options": [
+            "Priority",
+            "Round Robin",
+            "FCFS",
+            "SJF"
+        ],
+        "answer": "FCFS"
+    },
+    {
+        "question": "What is the time complexity of binary search?",
+        "options": [
+            "O(n)",
+            "O(1)",
+            "O(log n)",
+            "O(n log n)"
+        ],
+        "answer": "O(log n)"
+    },
+    {
+        "question": "What will typeof NaN return?",
+        "options": [
+            "NaN",
+            "object",
+            "undefined",
+            "number"
+        ],
+        "answer": "number"
+    },
+    {
+        "question": "Which company developed JavaScript?",
+        "options": [
+            "Microsoft",
+            "Google",
+            "Sun Microsystems",
+            "Netscape"
+        ],
+        "answer": "Netscape"
+    },
+    {
+        "question": "Which tag inserts a line break?",
+        "options": [
+            "<break>",
+            "<br>",
+            "<p>",
+            "<lb>"
+        ],
+        "answer": "<br>"
+    },
+    {
+        "question": "Which sorting algorithm is stable?",
+        "options": [
+            "Heap Sort",
+            "Merge Sort",
+            "Quick Sort",
+            "Selection Sort"
+        ],
+        "answer": "Merge Sort"
+    },
+    {
+        "question": "Which is a non-preemptive scheduling?",
+        "options": [
+            "Priority",
+            "Round Robin",
+            "FCFS",
+            "SJF"
+        ],
+        "answer": "FCFS"
+    },
+    {
+        "question": "Which keyword declares a block-scoped variable?",
+        "options": [
+            "define",
+            "var",
+            "let",
+            "const"
+        ],
+        "answer": "let"
+    },
+    {
+        "question": "Which CSS property changes text color?",
+        "options": [
+            "font-size",
+            "color",
+            "background-color",
+            "text-style"
+        ],
+        "answer": "color"
+    },
+    {
+        "question": "What will typeof NaN return?",
+        "options": [
+            "NaN",
+            "object",
+            "undefined",
+            "number"
+        ],
+        "answer": "number"
+    },
+    {
+        "question": "Which data structure is used in BFS?",
+        "options": [
+            "Tree",
+            "Stack",
+            "Heap",
+            "Queue"
+        ],
+        "answer": "Queue"
+    },
+    {
+        "question": "Which SQL keyword sorts results?",
+        "options": [
+            "SORT",
+            "GROUP BY",
+            "ORDER BY",
+            "RANK"
+        ],
+        "answer": "ORDER BY"
+    },
+    {
+        "question": "What does ACID stand for in DB?",
+        "options": [
+            "Add, Change, Insert, Delete",
+            "Atomicity, Consistency, Isolation, Durability",
+            "None",
+            "Accuracy, Control, Integrity, Data"
+        ],
+        "answer": "Atomicity, Consistency, Isolation, Durability"
+    },
+    {
+        "question": "Which CSS property changes text color?",
+        "options": [
+            "font-size",
+            "color",
+            "background-color",
+            "text-style"
+        ],
+        "answer": "color"
+    },
+    {
+        "question": "What unit is relative to the parent element?",
+        "options": [
+            "em",
+            "%",
+            "vh",
+            "px"
+        ],
+        "answer": "em"
+    },
+    {
+        "question": "Which keyword declares a block-scoped variable?",
+        "options": [
+            "define",
+            "var",
+            "let",
+            "const"
+        ],
+        "answer": "let"
+    },
+    {
+        "question": "Which sorting algorithm is stable?",
+        "options": [
+            "Heap Sort",
+            "Merge Sort",
+            "Quick Sort",
+            "Selection Sort"
+        ],
+        "answer": "Merge Sort"
+    },
+    {
+        "question": "Which attack injects SQL code?",
+        "options": [
+            "XSS",
+            "SQL Injection",
+            "Phishing",
+            "MITM"
+        ],
+        "answer": "SQL Injection"
+    },
+    {
+        "question": "What does <h1> represent?",
+        "options": [
+            "The largest heading",
+            "Horizontal line",
+            "Title",
+            "Paragraph"
+        ],
+        "answer": "The largest heading"
+    },
+    {
+        "question": "What will typeof NaN return?",
+        "options": [
+            "NaN",
+            "object",
+            "undefined",
+            "number"
+        ],
+        "answer": "number"
+    },
+    {
+        "question": "Which SQL command removes a record?",
+        "options": [
+            "TRUNCATE",
+            "REMOVE",
+            "DELETE",
+            "DROP"
+        ],
+        "answer": "DELETE"
+    },
+    {
+        "question": "Which data type is immutable in Python?",
+        "options": [
+            "Tuple",
+            "Set",
+            "List",
+            "Dictionary"
+        ],
+        "answer": "Tuple"
+    },
+    {
+        "question": "What is the maximum children of a binary tree node?",
+        "options": [
+            "Unlimited",
+            "1",
+            "3",
+            "2"
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "What does ACID stand for in DB?",
+        "options": [
+            "Add, Change, Insert, Delete",
+            "Atomicity, Consistency, Isolation, Durability",
+            "None",
+            "Accuracy, Control, Integrity, Data"
+        ],
+        "answer": "Atomicity, Consistency, Isolation, Durability"
+    },
+    {
+        "question": "Which data type is immutable in Python?",
+        "options": [
+            "Tuple",
+            "Set",
+            "List",
+            "Dictionary"
+        ],
+        "answer": "Tuple"
+    },
+    {
+        "question": "Which SQL keyword sorts results?",
+        "options": [
+            "SORT",
+            "GROUP BY",
+            "ORDER BY",
+            "RANK"
+        ],
+        "answer": "ORDER BY"
+    },
+    {
+        "question": "Which keyword declares a block-scoped variable?",
+        "options": [
+            "define",
+            "var",
+            "let",
+            "const"
+        ],
+        "answer": "let"
+    },
+    {
+        "question": "Which attack injects SQL code?",
+        "options": [
+            "XSS",
+            "SQL Injection",
+            "Phishing",
+            "MITM"
+        ],
+        "answer": "SQL Injection"
+    },
+    {
+        "question": "What does <h1> represent?",
+        "options": [
+            "The largest heading",
+            "Horizontal line",
+            "Title",
+            "Paragraph"
+        ],
+        "answer": "The largest heading"
+    },
+    {
+        "question": "What is the time complexity of binary search?",
+        "options": [
+            "O(n)",
+            "O(1)",
+            "O(log n)",
+            "O(n log n)"
+        ],
+        "answer": "O(log n)"
+    },
+    {
+        "question": "Which property makes text bold?",
+        "options": [
+            "font-style",
+            "weight",
+            "font-weight",
+            "bold"
+        ],
+        "answer": "font-weight"
+    },
+    {
+        "question": "Which sorting algorithm is stable?",
+        "options": [
+            "Heap Sort",
+            "Merge Sort",
+            "Quick Sort",
+            "Selection Sort"
+        ],
+        "answer": "Merge Sort"
+    },
+    {
+        "question": "Which tag inserts a line break?",
+        "options": [
+            "<break>",
+            "<br>",
+            "<p>",
+            "<lb>"
+        ],
+        "answer": "<br>"
+    },
+    {
+        "question": "What is the time complexity of binary search?",
+        "options": [
+            "O(n)",
+            "O(1)",
+            "O(log n)",
+            "O(n log n)"
+        ],
+        "answer": "O(log n)"
+    },
+    {
+        "question": "What does <h1> represent?",
+        "options": [
+            "The largest heading",
+            "Horizontal line",
+            "Title",
+            "Paragraph"
+        ],
+        "answer": "The largest heading"
+    },
+    {
+        "question": "Which HTML tag is used to create a hyperlink?",
+        "options": [
+            "<href>",
+            "<p>",
+            "<link>",
+            "<a>"
+        ],
+        "answer": "<a>"
+    },
+    {
+        "question": "Which is a non-preemptive scheduling?",
+        "options": [
+            "Priority",
+            "Round Robin",
+            "FCFS",
+            "SJF"
+        ],
+        "answer": "FCFS"
+    },
+    {
+        "question": "What does HTTPS use for security?",
+        "options": [
+            "Hashing",
+            "VPN",
+            "SSL/TLS",
+            "Firewall"
+        ],
+        "answer": "SSL/TLS"
+    },
+    {
+        "question": "Which data structure is used in BFS?",
+        "options": [
+            "Tree",
+            "Stack",
+            "Heap",
+            "Queue"
+        ],
+        "answer": "Queue"
+    },
+    {
+        "question": "Which data type is immutable in Python?",
+        "options": [
+            "Tuple",
+            "Set",
+            "List",
+            "Dictionary"
+        ],
+        "answer": "Tuple"
+    },
+    {
+        "question": "Which CSS property changes text color?",
+        "options": [
+            "font-size",
+            "color",
+            "background-color",
+            "text-style"
+        ],
+        "answer": "color"
+    },
+    {
+        "question": "Which keyword is used to define a function in Python?",
+        "options": [
+            "function",
+            "lambda",
+            "func",
+            "def"
+        ],
+        "answer": "def"
+    },
+    {
+        "question": "What is the maximum children of a binary tree node?",
+        "options": [
+            "Unlimited",
+            "1",
+            "3",
+            "2"
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Which SQL keyword sorts results?",
+        "options": [
+            "SORT",
+            "GROUP BY",
+            "ORDER BY",
+            "RANK"
+        ],
+        "answer": "ORDER BY"
+    },
+    {
+        "question": "Which attack injects SQL code?",
+        "options": [
+            "XSS",
+            "SQL Injection",
+            "Phishing",
+            "MITM"
+        ],
+        "answer": "SQL Injection"
+    },
+    {
+        "question": "What does ACID stand for in DB?",
+        "options": [
+            "Add, Change, Insert, Delete",
+            "Atomicity, Consistency, Isolation, Durability",
+            "None",
+            "Accuracy, Control, Integrity, Data"
+        ],
+        "answer": "Atomicity, Consistency, Isolation, Durability"
+    },
+    {
+        "question": "Which attack injects SQL code?",
+        "options": [
+            "XSS",
+            "SQL Injection",
+            "Phishing",
+            "MITM"
+        ],
+        "answer": "SQL Injection"
+    },
+    {
+        "question": "Which keyword declares a block-scoped variable?",
+        "options": [
+            "define",
+            "var",
+            "let",
+            "const"
+        ],
+        "answer": "let"
+    },
+    {
+        "question": "What does HTTPS use for security?",
+        "options": [
+            "Hashing",
+            "VPN",
+            "SSL/TLS",
+            "Firewall"
+        ],
+        "answer": "SSL/TLS"
+    },
+    {
+        "question": "Which attack injects SQL code?",
+        "options": [
+            "XSS",
+            "SQL Injection",
+            "Phishing",
+            "MITM"
+        ],
+        "answer": "SQL Injection"
+    },
+    {
+        "question": "What is the time complexity of binary search?",
+        "options": [
+            "O(n)",
+            "O(1)",
+            "O(log n)",
+            "O(n log n)"
+        ],
+        "answer": "O(log n)"
+    },
+    {
+        "question": "What will typeof NaN return?",
+        "options": [
+            "NaN",
+            "object",
+            "undefined",
+            "number"
+        ],
+        "answer": "number"
+    },
+    {
+        "question": "Which layer is IP in?",
+        "options": [
+            "Data Link",
+            "Transport",
+            "Network",
+            "Application"
+        ],
+        "answer": "Network"
+    },
+    {
+        "question": "Which device connects different networks?",
+        "options": [
+            "Router",
+            "Repeater",
+            "Switch",
+            "Hub"
+        ],
+        "answer": "Router"
+    },
+    {
+        "question": "Which keyword is used to define a function in Python?",
+        "options": [
+            "function",
+            "lambda",
+            "func",
+            "def"
+        ],
+        "answer": "def"
+    },
+    {
+        "question": "Which company developed JavaScript?",
+        "options": [
+            "Microsoft",
+            "Google",
+            "Sun Microsystems",
+            "Netscape"
+        ],
+        "answer": "Netscape"
+    },
+    {
+        "question": "Which is NOT a scheduling algorithm?",
+        "options": [
+            "Round Robin",
+            "Fastest Path Routing",
+            "Shortest Job Next",
+            "FCFS"
+        ],
+        "answer": "Fastest Path Routing"
+    },
+    {
+        "question": "Which keyword is used to define a function in Python?",
+        "options": [
+            "function",
+            "lambda",
+            "func",
+            "def"
+        ],
+        "answer": "def"
+    },
+    {
+        "question": "What is the time complexity of binary search?",
+        "options": [
+            "O(n)",
+            "O(1)",
+            "O(log n)",
+            "O(n log n)"
+        ],
+        "answer": "O(log n)"
+    },
+    {
+        "question": "Which HTML tag is used to create a hyperlink?",
+        "options": [
+            "<href>",
+            "<p>",
+            "<link>",
+            "<a>"
+        ],
+        "answer": "<a>"
+    },
+    {
+        "question": "Which CSS property changes text color?",
+        "options": [
+            "font-size",
+            "color",
+            "background-color",
+            "text-style"
+        ],
+        "answer": "color"
+    },
+    {
+        "question": "Which keyword is used to define a function in Python?",
+        "options": [
+            "function",
+            "lambda",
+            "func",
+            "def"
+        ],
+        "answer": "def"
+    },
+    {
+        "question": "Which data structure is used in BFS?",
+        "options": [
+            "Tree",
+            "Stack",
+            "Heap",
+            "Queue"
+        ],
+        "answer": "Queue"
+    },
+    {
+        "question": "What is used for process synchronization?",
+        "options": [
+            "Cache",
+            "Thread",
+            "Buffer",
+            "Semaphore"
+        ],
+        "answer": "Semaphore"
+    },
+    {
+        "question": "What is the maximum children of a binary tree node?",
+        "options": [
+            "Unlimited",
+            "1",
+            "3",
+            "2"
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Which structure uses LIFO?",
+        "options": [
+            "Stack",
+            "Graph",
+            "Array",
+            "Queue"
+        ],
+        "answer": "Stack"
+    },
+    {
+        "question": "Which attack injects SQL code?",
+        "options": [
+            "XSS",
+            "SQL Injection",
+            "Phishing",
+            "MITM"
+        ],
+        "answer": "SQL Injection"
+    },
+    {
+        "question": "Which attack injects SQL code?",
+        "options": [
+            "XSS",
+            "SQL Injection",
+            "Phishing",
+            "MITM"
+        ],
+        "answer": "SQL Injection"
+    },
+    {
+        "question": "What is the time complexity of binary search?",
+        "options": [
+            "O(n)",
+            "O(1)",
+            "O(log n)",
+            "O(n log n)"
+        ],
+        "answer": "O(log n)"
+    },
+    {
+        "question": "Which protocol sends emails?",
+        "options": [
+            "FTP",
+            "SMTP",
+            "IMAP",
+            "HTTP"
+        ],
+        "answer": "SMTP"
+    },
+    {
+        "question": "Which layer is IP in?",
+        "options": [
+            "Data Link",
+            "Transport",
+            "Network",
+            "Application"
+        ],
+        "answer": "Network"
     }
 ]
