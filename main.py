@@ -11,9 +11,9 @@ import random
 load_dotenv()
 TOKEN = os.getenv("BOT_TOKEN")
 
-# Savollarni o‘qish
+# Savollarni o‘qish (kategoriyalar bilan)
 with open("questions.json", "r", encoding="utf-8") as f:
-    questions = json.load(f)
+    questions_by_category = json.load(f)
 
 # Leaderboard uchun fayl
 SCORES_FILE = "scores.json"
@@ -39,7 +39,7 @@ def save_scores(scores):
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_id = update.effective_user.id
     user_name = update.effective_user.first_name
-    user_data[user_id] = {"score": 0, "current_q": 0, "order": []}
+    user_data[user_id] = {"score": 0, "current_q": 0, "order": [], "category": None}
     await update.message.reply_text(
         f"Salom, {user_name}! 👋\n\n"
         "🚀 Bu bot orqali dasturlash bo‘yicha quiz o‘ynashingiz mumkin!\n"
@@ -47,22 +47,20 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "📊 Reyting jadvalini ko‘rish uchun /leaderboard buyrug‘ini bosing."
     )
 
-# /quiz komandasi
+# /quiz komandasi — kategoriya tanlash
 async def quiz(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    user_id = update.effective_user.id
-    # savollarni random tartibda beramiz
-    order = list(range(len(questions)))
-    random.shuffle(order)
-    user_data[user_id] = {"score": 0, "current_q": 0, "order": order}
-    await ask_question(update, context, user_id)
+    keyboard = [[InlineKeyboardButton(cat, callback_data=f"cat_{cat}")] for cat in questions_by_category.keys()]
+    reply_markup = InlineKeyboardMarkup(keyboard)
+    await update.message.reply_text("📂 Iltimos, kategoriya tanlang:", reply_markup=reply_markup)
 
 # Savolni chiqarish
 async def ask_question(update, context, user_id):
     q_index = user_data[user_id]["current_q"]
     order = user_data[user_id]["order"]
+    category = user_data[user_id]["category"]
 
     if q_index < len(order):
-        q = questions[order[q_index]]
+        q = questions_by_category[category][order[q_index]]
         keyboard = [
             [InlineKeyboardButton(f"🔹 {opt}", callback_data=opt)]
             for opt in q["options"]
@@ -101,14 +99,27 @@ async def ask_question(update, context, user_id):
             "📊 Reytingni ko‘rish uchun /leaderboard ni bosing."
         )
 
-# Javoblarni tekshirish
+# Javoblarni tekshirish va kategoriya tanlash
 async def button(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
     await query.answer()
     user_id = query.from_user.id
+
+    # Agar kategoriya tanlansa
+    if query.data.startswith("cat_"):
+        category = query.data.replace("cat_", "")
+        order = list(range(len(questions_by_category[category])))
+        random.shuffle(order)
+        user_data[user_id] = {"score": 0, "current_q": 0, "order": order, "category": category}
+        await query.edit_message_text(f"✅ {category} tanlandi!\nQuiz boshlanmoqda...")
+        await ask_question(update, context, user_id)
+        return
+
+    # Oddiy savolga javob bo‘lsa
     q_index = user_data[user_id]["current_q"]
     order = user_data[user_id]["order"]
-    q = questions[order[q_index]]
+    category = user_data[user_id]["category"]
+    q = questions_by_category[category][order[q_index]]
 
     if query.data == q["answer"]:
         user_data[user_id]["score"] += 1
